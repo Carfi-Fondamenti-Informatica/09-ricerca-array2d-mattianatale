@@ -1,3 +1,5 @@
+
+
 #include "lib.h"
 bool funzione(char a[10][20],char b[], int &p){
     for(int i=0; i<10; i++){
