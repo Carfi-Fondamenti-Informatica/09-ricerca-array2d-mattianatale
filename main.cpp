@@ -1,7 +1,8 @@
 #include <iostream>
-
-int main(){
-  char a[10][20];
+#include "lib.h"
+using namespace std;
+int main() {
+    char a[10][20];
     char b[20];
     for(int i=0; i<10; i++){
         for(int j=0; j<20; j++){
@@ -9,6 +10,7 @@ int main(){
             b[j]=' ';
         }
     }
+    
     for(int i=0; i<10; i++){
         cin >> a[i];
     }
@@ -20,5 +22,5 @@ int main(){
     }
     else
         cout<<"non presente";
-  return 0;
+    return 0;
 }
